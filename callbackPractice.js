@@ -99,12 +99,14 @@ contains(names, 'Colt', function(result){
 
 
     //Code Here for uniq
+var uniq = function(n, cb) {
+  
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 uniq(names, function(uniqArr){
   console.log('The new names array with all the duplicate items removed is ', uniqArr);
 });
-
 
 
 
@@ -115,6 +117,9 @@ uniq(names, function(uniqArr){
 
 
     //Code Here for each
+var each = function(n, cb) {
+
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 each(names, function(item, indice){
@@ -132,6 +137,9 @@ each(names, function(item, indice){
 
 
  //code here for getUserById
+var getUserById = function(u, s, cb) {
+
+}
 
 var users = [
   {
