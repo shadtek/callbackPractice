@@ -79,6 +79,9 @@ multiply(4, 3, function(answer){
 
 
   //Code Here for contains
+var contains = function(n, s, cb) {
+  cb(s === n[n.indexOf(s)])
+}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 contains(names, 'Colt', function(result){
@@ -88,9 +91,6 @@ contains(names, 'Colt', function(result){
     console.log('Colt is not in the array');
   }
 });
-
-
-
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
