@@ -59,10 +59,10 @@ last(names, function(lastName){
 
 
 
-
-
-
   //Code Here for multiply
+var multiply = function(x, y, cb) {
+  cb(x * y)
+}
 
 multiply(4, 3, function(answer){
   console.log('The answer is ', answer); //should console.log 12
